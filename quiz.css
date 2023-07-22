@@ -1,0 +1,49 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+
+
+.about img{
+   margin-left: 60px;
+   border-radius: 4px;
+  
+}
+
+
+
+.about p{
+    text-align: left;
+	font-size: 3rem;
+	color : #111;
+    margin-left: 300px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: -100px;
+}
+
+
+.about .btn{
+    text-align: left;
+	font-size: 3rem;
+	color : #111;
+    margin-left: 800px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 100px;
+    border-radius: 4rem;
+    border-color: #111;
+    box-sizing: border-box;
+    box-shadow: inset;
+    background-color: grey;
+}

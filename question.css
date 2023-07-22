@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+body{
+    background-color: white;
+}
+.start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    width: 150px;
+    margin-top: 130px;
+    margin-left: 260px;
+}
+
+.info-box{
+    border-radius: 5px;
+    background-color: gray;
+   margin-left: 300px;
+   margin-right: 300px;
+   margin-top: -50px;
+  
+}
+
+.info-box .title{
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+   
+  
+}
+.info-box .title span{
+    
+   
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.list{
+    border-bottom: 1px solid lightgray;
+}
+
+.list .info{
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: left;
+  
+}
+
+.button .exit{
+   
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.button .restart{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+}

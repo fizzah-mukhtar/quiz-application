@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+body{
+    background-color: gray;
+}
+.quiz-box{
+    width: 550px;
+    background: white;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+
+.quiz-box header{
+    height: 70px;
+    padding: 0px 35px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+
+
+}
+
+.quiz-box header .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quiz-box header .timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+
+.quiz-box header .timer .time-text{
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+}
+
+.quiz-box header .timer .time-sec{
+    font-size: 18px;
+    font-weight: 500;
+    background: black;
+    height: 30px;
+    width: 45px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    user-select: none;
+
+
+}
+
+.quiz-box section{
+    padding: 25px;
+    background-color: white;
+}
+
+.inner-div{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit, .btn{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 25px;
+    background-color: cadetblue;
+    color: black;
+}
